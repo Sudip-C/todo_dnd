@@ -1,0 +1,15 @@
+.task-card{
+    border: 2px solid rgb(32, 27, 27);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: grab;
+    height: 120px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.task-card:active{
+    opacity: .5;
+    border: 1px solid black;
+}
