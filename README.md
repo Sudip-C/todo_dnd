@@ -1,9 +1,8 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # todo_dnd
+
+User can add a task. initially it will be at  Todo list . then according to the update user can upadate the task from "Todo" to "Pending" to "Completed".
+
+### User can update status just by dragging the task to another column.
+
+## deployed link :  https://todo23dnd.netlify.app/
