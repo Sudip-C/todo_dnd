@@ -28,3 +28,4 @@ export const postData=(post)=> async(dispatch)=>{
         dispatch({type:POST_DATA_FAIL,payload:err.message})
     }
 }
+

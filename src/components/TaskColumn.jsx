@@ -10,13 +10,13 @@ export const TaskColumn = ({title,tasks,status,setActiveCard,onDrop}) => {
     <hr></hr>
     <DropArea onDrop={()=>onDrop(status,0)}/>
     {tasks?.map((e,index)=>e.status===status && (
-        <React.Fragment key={e.id}>
+        <div key={e.id}>
         <TaskCard  
         title={e.title} 
         index={index} 
         setActiveCard={setActiveCard} />
         <DropArea onDrop={()=>onDrop(status,index+1)} />
-        </React.Fragment>
+        </div>
     ))}
 
 

@@ -1,6 +1,7 @@
 .task-card{
-    border: 2px solid rgb(32, 27, 27);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
+    color: white;
     padding: 10px;
     cursor: grab;
     height: 120px;

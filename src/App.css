@@ -1,8 +1,10 @@
+body{
+  margin: 0px;
+}
 .App{
 font-family: 'Courier New', Courier, monospace;
-background-color: rgb(255, 236, 212);
-padding: 0px;
-margin: 0px;
+background-color: rgb(0, 0, 0);
+
 
 }
 .container{
@@ -10,7 +12,8 @@ margin: 0px;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(255, 236, 212);
+  /* border: 2px solid white; */
+  background-color: rgb(0, 0, 0);
 }
 .App .inputBox{
 padding: 10px;
